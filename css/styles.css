@@ -1,24 +1,10 @@
 #main{
-	background-color: green;
+	background-color: #85D8AE;
 	padding:100px;
 	text-align: center;
 	height: 200px; 
 }
-#name{
-	text-align: center;
-	font-weight: bold;
-	font-size: 32px;
-	height: 40px;
-	background-color: green;
-	padding: 30px; 
 
-}
-.title{
-	margin:25px;
-	background-color: yellow;
-	color: blue;
-	font-family: "helvetica";
-}
 
 .content_wrapper{
 	text-align: center;
@@ -32,7 +18,7 @@
 	height: 125px;
 	width: 125px;
 	background-color: white;
-	margin-left: 25px;
+	margin-left: 20px;
 	display: inline-block;
 
 }
@@ -46,17 +32,38 @@ margin-right: 50px;
 }
 
 #arrow{
-	margin-top: 30px;
+	z-index: 2;
+margin: 30px;
 
 }
 
 #image{
-	height: 50px;
-	width: 70px;
+	height: 40px;
+	width: 60px;
 }
 
 #arrowcircle{
-	border
+	border-radius: 800px;
+	height:75px;
+	width:75px;
+	background-color: #FFF7F8;
+	margin: -92px auto;
+}
+
+#greysquare{
+	background-color: #D7D7D7;
+	height: 250px;
+	width: 500px;
+	margin: 250px auto;
+
+} 
+
+#yukio{
+	color: white;
+}
+
+#yukio2{
+	color: white;
 }
 
 
